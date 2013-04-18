@@ -1,0 +1,29 @@
+<xpcConfig>
+	<entityType name="rpbsg.propertyService">
+		<description>Property Service Soap</description>
+		<method>
+			<name>getSuggestionListNZ</name>
+			<class>tooltwist.rpbsg.xpc.propertyService.nz.SuggestionListXpc</class>
+		</method>
+		<method>
+			<name>getSuggestionList</name>
+			<class>tooltwist.rpbsg.xpc.propertyService.au.SuggestionListXpc</class>
+		</method>
+		<method>
+			<name>getPropertyIdListFromSuggestionNZ</name>
+			<class>tooltwist.rpbsg.xpc.propertyService.nz.PropertyIdListFromSuggestionXpc</class>
+		</method>
+		<method>
+			<name>getPropertyIdListFromSuggestion</name>
+			<class>tooltwist.rpbsg.xpc.propertyService.au.PropertyIdListFromSuggestionXpc</class>
+		</method>
+		<method>
+			<name>getPropertySummaryListNZ</name>
+			<class>tooltwist.rpbsg.xpc.propertyService.nz.PropertySummaryListXpc</class>
+		</method>
+		<method>
+			<name>getPropertySummaryList</name>
+			<class>tooltwist.rpbsg.xpc.propertyService.au.PropertySummaryListXpc</class>
+		</method>
+	</entityType>
+</xpcConfig>
